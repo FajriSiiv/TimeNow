@@ -1,7 +1,7 @@
 import Head from "next/head";
-import About from "./About/About";
-import Hero from "./Hero/Hero";
-import ViewDemo from "./ViewDemo/ViewDemo";
+import About from "../Components/About/About";
+import Hero from "../Components/Hero/Hero";
+import ViewDemo from "../Components/ViewDemo/ViewDemo";
 
 export default function Home() {
   return (

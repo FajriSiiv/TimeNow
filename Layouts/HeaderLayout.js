@@ -3,7 +3,7 @@ import Image from "next/image";
 import Logo from "../public/Assets/Logo.svg";
 import HamMenu from "../public/Assets/HamMenu.svg";
 import { Container, DivLink, LinkDiv, Linkers } from "./HeaderStyles";
-import { Button } from "../pages/Hero/HeroStyles";
+import { Button } from "../Components/Hero/HeroStyles";
 import Link from "next/link";
 
 const HeaderLayout = () => {
@@ -25,7 +25,7 @@ const HeaderLayout = () => {
       <Image alt="Menu" onClick={btnResponsive} src={HamMenu} />
       <DivLink
         style={{
-          transform: collapsed ? "none" : "translateY(-100%)",
+          transform: !collapsed ? "none" : "translateY(-100%)",
         }}
       >
         <LinkDiv
