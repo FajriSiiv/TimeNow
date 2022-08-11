@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer({
   padding: "0 15px",
   paddingBottom: "20px",
+  maxWidth: 500,
 });
 
 export const Div = styled.div({
@@ -36,12 +37,12 @@ export const DivEmail = styled.div({
   border: "1px solid #A8A9A9",
   minWidth: 290,
   borderRadius: "4px",
-  width: "90vw",
+
+  maxWidth: "500px",
 });
 
 export const InputE = styled.input({
-  minWidth: "120px",
-  width: "60%",
+  maxWidth: "50%",
   outline: "none",
   border: "none",
   fontSize: ".9rem",
@@ -56,6 +57,7 @@ export const Button = styled.button({
   fontSize: ".8rem",
   padding: "18px 0",
   width: "80%",
+  maxWidth: "500px",
   background: "#1D1B67",
   color: "#fff",
   borderRadius: "5px",

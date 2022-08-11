@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div({
   background: "#fff",
-  marginTop: "90px",
+  paddingTop: 90,
 });
 
 export const LeftContainer = styled.div({

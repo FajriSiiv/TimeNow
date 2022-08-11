@@ -8,15 +8,17 @@ export const Container = styled.div({
   width: "100%",
   background: "white",
   top: 0,
-  left: 0,
+  left: "50%",
   zIndex: 99,
+  maxWidth: "500px",
+  transform: "translateX(-50%)",
 });
 
 export const DivLink = styled.div({
   display: "flex",
   position: "fixed",
   height: "100vh",
-  width: "100vw",
+  width: "100%",
   top: 0,
   bottom: 0,
   left: 0,
@@ -26,7 +28,7 @@ export const DivLink = styled.div({
   alignItems: "center",
   justifyContent: "center",
   zIndex: 20,
-  marginTop: 10,
+  maxWidth: 500,
 });
 
 export const LinkDiv = styled.div({

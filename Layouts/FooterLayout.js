@@ -49,9 +49,18 @@ const FooterLayout = () => {
         >
           Try TweetNow
         </TextH4>
-        <DivEmail>
+        <DivEmail
+          style={{
+            width: 400,
+          }}
+        >
           <InputE placeholder="Email Address" />
-          <Button onClick={() => alert("Thanks, check your email")}>
+          <Button
+            style={{
+              maxWidth: "50%",
+            }}
+            onClick={() => alert("Thanks, check your email")}
+          >
             Start Scheduling
           </Button>
         </DivEmail>

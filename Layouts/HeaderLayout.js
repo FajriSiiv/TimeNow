@@ -25,7 +25,7 @@ const HeaderLayout = () => {
       <Image alt="Menu" onClick={btnResponsive} src={HamMenu} />
       <DivLink
         style={{
-          transform: collapsed ? "none" : "translateX(100%)",
+          transform: collapsed ? "none" : "translateY(-100%)",
         }}
       >
         <LinkDiv

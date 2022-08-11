@@ -4,7 +4,7 @@ import HeaderLayout from "./HeaderLayout";
 
 const ContainerLayout = ({ children }) => {
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", background: "#ffffff" }}>
       <HeaderLayout />
       {children}
       <FooterLayout />
